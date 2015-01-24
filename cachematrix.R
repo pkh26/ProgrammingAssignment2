@@ -1,7 +1,7 @@
 ## Together the functions cacheSolve and makeCacheMatrix inverts an invertible matrix,
 ## caches the result, and returns an invertible matrix.
 
-## makeCacheMartix caches the inverse of its invertible matrix argumnet. Called by cacheSolve.
+## makeCacheMartix caches the inverse of its invertible matrix argumnet. Is called by cacheSolve.
 
 makeCacheMatrix <- function(mat = matrix()) {
     inv <- NULL
